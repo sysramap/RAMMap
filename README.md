@@ -1,4 +1,7 @@
-# RAMMap v1.62
+# RAMMap
+
+Download latest version from Releases:       
+https://github.com/ramvex/RAMMap/releases/tag/v1.63
 
 ## Introduction
 
@@ -6,4 +9,4 @@ RAMMap is a lightweight Windows utility that provides a detailed, real-time view
 
 The interface presents multiple tabs with clear summaries and sortable lists, enabling quick investigation of large allocations and file-backed memory. RAMMap is especially useful when troubleshooting issues like unexplained memory growth, sluggish responsiveness after long uptimes, or workloads that trigger heavy paging. By showing per-file and per-process contributions to mapped and cached memory, it supports evidence-based tuning and root-cause analysis.
 
-Beyond reporting, RAMMap offers safe maintenance capabilities that allow specific memory lists to be refreshed for troubleshooting purposes, including options like clearing the standby list. Applied responsibly, these features can help verify whether performance problems stem from cached data rather than genuine memory leaks. In general, RAMMap serves as an effective companion for Windows memory analysis, combining visibility and management features that complement Sysinternals tools and conventional performance counters.
+In addition to its reporting features, RAMMap includes safe maintenance actions for refreshing certain memory lists, such as the standby list, to support diagnostics. Used appropriately, these actions can help identify whether performance symptoms are related to cached data instead of a real memory leak. Overall, RAMMap is a useful tool for analyzing Windows memory, providing both transparency and control that work well with other Sysinternals tools and standard performance monitoring counters.
